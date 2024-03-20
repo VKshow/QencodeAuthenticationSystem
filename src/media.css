@@ -1,0 +1,10 @@
+@media (max-width: 386px){
+    .content{
+        padding: 0 20px 10px;
+        margin-top: 30px;
+    }
+    .btn-group_item {
+        width: 100%;
+        margin-top: 20px;
+    }   
+}
