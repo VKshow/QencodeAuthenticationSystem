@@ -41,8 +41,13 @@ Usage:
 The application consists of three main routes:
 
 1. Login ("/"): The default route where users can log in to their existing account using their email and password.
+    https://main--qencodeauth.netlify.app/
+
 2. Forgot Password ("/forgotpassword"): Users can navigate to this page if they need to reset their password. A valid email address is required to receive the password reset instructions.
-3. Reset Password ("/resetpassword"): Accessible through a link sent to the user's email as part of the password reset instructions. Due to security reasons, this step must be accessed directly via the link provided in the email and cannot be navigated to from within the application.
+    https://main--qencodeauth.netlify.app/#/forgotpassword
+
+3. Reset Password ("/resetpassword"): Accessible through a link sent to the user's email as part of the password reset instructions. Due to security reasons, this step must be accessed directly via the link provided in the email and cannot be navigated to from within the application by button. For demonstration only pls proceed: 
+    https://main--qencodeauth.netlify.app/#/resetpassword
 
 Navigational Flow:
 
